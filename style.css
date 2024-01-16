@@ -61,3 +61,34 @@ span {
   gap: 12px;
   margin-top: 51px;
 }
+
+.generate-btn:hover,
+.generate-btn:active {
+  background-color: #0d9e6e;
+  cursor: pointer;
+}
+
+#password-section {
+  display: flex;
+  width: 446px;
+  height: 78px;
+}
+
+.password-box-left {
+  display: inline-block;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  background: #273549;
+  margin: 70px 0 0 0;
+}
+
+.password-box-right {
+  display: inline-block;
+  justify-content: flex-end;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  background: #273549;
+  margin: 70px 0 0 24px;
+}
