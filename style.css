@@ -59,7 +59,7 @@ span {
   font-family: 'Inter', sans-serif;
   padding: 9px 17px 9px 15px;
   gap: 12px;
-  margin-top: 51px;
+  margin: 51px 0 35px 0;
 }
 
 .generate-btn:hover,
@@ -74,21 +74,32 @@ span {
   height: 78px;
 }
 
-.password-box-left {
+#password-box-left, #password-box-right {
   display: inline-block;
   width: 211px;
   height: 39px;
   border-radius: 6px;
   background: #273549;
-  margin: 70px 0 0 0;
+  margin: 35px 0 0 0;
 }
 
-.password-box-right {
-  display: inline-block;
+.separator {
+  width: 446px;
+  height: 1px;
+  background-color: #2F3E53;
+}
+
+#password-box-right {
   justify-content: flex-end;
-  width: 211px;
-  height: 39px;
-  border-radius: 6px;
-  background: #273549;
-  margin: 70px 0 0 24px;
+  margin-left: 24px;
+}
+
+#password1, #password2 {
+  text-align: center;
+  color: #55F991;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 3px;
 }
